@@ -5,8 +5,16 @@
     <title>c0744064</title>
     <link href="css/default.css" rel="stylesheet" />
 </head>
-<body>
-    <div>Content goes here!</div>
-    <script src="js/main.js"></script>
+<body onload="myFunction()">
+
+    <script>
+        function myFunction() {
+
+            var date = new Date();
+            
+            document.body.innerHTML = "<h3>Date today is</h3> " + "<h1>"+ (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear() + "</h1>";
+        }
+    </script>
+
 </body>
 </html>
