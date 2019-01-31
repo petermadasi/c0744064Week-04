@@ -1,3 +1,8 @@
-﻿// Your code here!
-var date = new Date();
-document.body.innerHTML = "<h1>Date today is " + (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear() + "</h1>";
+﻿
+
+function myFunction() {
+
+    var date = new Date();
+
+    document.body.innerHTML = "<h3>Date today is</h3> " + "<h1>" + (date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear() + "</h1>";
+}
